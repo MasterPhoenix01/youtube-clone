@@ -89,7 +89,7 @@ function GridVideos({ videos, activeTag, UserD }) {
                       width="340" height="180"
                       src={`https://www.youtube.com/embed/${id}`}
                       title={`YouTube video player - ${id}`}
-                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen
+                      frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen
                     />
                   </div>
                 ))}
